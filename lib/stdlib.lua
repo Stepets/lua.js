@@ -448,6 +448,13 @@ math.random = __js[[
     }
 ]]
 
+--not works for negative values
+math.fmod = __js[[
+	function  (m, n){
+        return (m % n);
+    }
+]]
+
 bit32 = {}
 
 bit32.arshift = __js[[
